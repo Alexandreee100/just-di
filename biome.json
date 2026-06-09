@@ -1,0 +1,39 @@
+{
+  "$schema": "./node_modules/@biomejs/biome/configuration_schema.json",
+  "files": {
+    "includes": ["**", "!dist"]
+  },
+  "linter": {
+    "enabled": true,
+    "rules": {
+      "recommended": true,
+      "correctness": {
+        "noUnusedVariables": "info"
+      },
+      "suspicious": {
+        "noExplicitAny": "info"
+      },
+      "style": {
+        "noNonNullAssertion": "off",
+        "useConsistentMemberAccessibility": {
+          "level": "error",
+          "options": {
+            "accessibility": "explicit"
+          }
+        }
+      }
+    }
+  },
+  "formatter": {
+    "lineWidth": 80,
+    "indentStyle": "space",
+    "lineEnding": "lf",
+    "indentWidth": 4,
+    "useEditorconfig": true
+  },
+  "json": {
+    "formatter": {
+      "indentWidth": 2
+    }
+  }
+}

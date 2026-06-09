@@ -2,7 +2,7 @@ import type { Container } from "./container";
 import { ContainerInstance } from "./container-instance";
 import type { AnyDependency, Constructor, Scope } from "./types";
 
-interface ServiceOptions {
+export interface ServiceOptions {
     deps?: AnyDependency[];
     scope?: Scope;
     container?: Container;

@@ -1,19 +1,21 @@
 {
   "compilerOptions": {
-    "verbatimModuleSyntax": true,
-    "target": "es2023",
+    "module": "Preserve",
     "moduleResolution": "bundler",
-    "lib": ["es2023"],
+    "target": "ESNext",
+    "lib": ["ESNext"],
+    "verbatimModuleSyntax": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "ignoreDeprecations": "6.0",
+    "useDefineForClassFields": false,
+    "skipLibCheck": true,
+    "strict": true,
     "allowUnreachableCode": false,
     "allowUnusedLabels": false,
     "noFallthroughCasesInSwitch": true,
     "noImplicitOverride": true,
-    "noUncheckedIndexedAccess": true,
-    "strict": true,
-    "resolveJsonModule": true,
-    "esModuleInterop": true,
-    "useDefineForClassFields": false,
-    "skipLibCheck": true
+    "noUncheckedIndexedAccess": true
   },
   "include": ["src"]
 }
