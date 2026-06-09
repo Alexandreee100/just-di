@@ -1,0 +1,21 @@
+{
+  "name": "@schedule/di",
+  "version": "0.0.1",
+  "exports": {
+    ".": {
+      "types": "./src/index.ts",
+      "default": "./src/index.ts"
+    }
+  },
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "devDependencies": {
+    "@swc/core": "1.15.33",
+    "tsup": "^8.5.1",
+    "typescript": "6.0.3",
+    "unplugin-swc": "1.5.9",
+    "vitest": "4.1.6"
+  }
+}
