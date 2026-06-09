@@ -1,5 +1,4 @@
 {
-  "extends": ["@schedule/configs/tsconfig/base"],
   "compilerOptions": {
     "verbatimModuleSyntax": true,
     "target": "es2023",
